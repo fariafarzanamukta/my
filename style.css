@@ -25,6 +25,9 @@ section{
 .half-width img{
     width: 80%;
 }
+.red{
+    color: teal;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(104, 33, 33),rgb(29, 29, 187));
