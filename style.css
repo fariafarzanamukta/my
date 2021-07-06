@@ -27,6 +27,7 @@ h2{
 }
 .half-width img{
     width: 80%;
+    border-radius: 300px;
 }
 .red{
     color: teal;
@@ -43,6 +44,8 @@ h2{
 background-image: url(3.jpg);
 background-repeat: no-repeat;
 background-position: right;
+background-size: 1000px 1000px;
+}
 }
 .experience-area{
     background-image: url(experience-bg.png);
@@ -71,9 +74,13 @@ background-position: right;
     border-image: linear-gradient(red,cyan);
      border-image-slice: 1;
      border-left: 7px solid;
-     border-right: 7px solid;
+     border-bottom: 7px solid;
 
 }
 .experience-area h1{
     text-align: center;
+}
+footer{
+    text-align: center;
+    color: tomato;
 }
