@@ -6,9 +6,12 @@ h1{
     font-size: 50px;
 
 }
-section{
+h2{
+   font-size: 38px;
+}
+.flexible-container{
     display: flex;
-    
+    margin-bottom: 150px;;    
 }
 .top-banner{
     background-image: url(background-img.jpg);
@@ -34,5 +37,43 @@ section{
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 10px 40px;
+}
+.dream-big{
+background-image: url(3.jpg);
+background-repeat: no-repeat;
+background-position: right;
+}
+.experience-area{
+    background-image: url(experience-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+     box-shadow: 10px 10px 40px rgb(68, 64, 64);
+     
+    
+}
+#web-dev-experience{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    border-top: 7px solid;
+}
+#full-stack-developer{
+    border-image: linear-gradient(red,cyan);
+     border-image-slice: 1;
+     border-left: 7px solid;
+     border-right: 7px solid;
+
+}
+.experience-area h1{
+    text-align: center;
 }
