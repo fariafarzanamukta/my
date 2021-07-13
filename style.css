@@ -11,7 +11,7 @@ h2{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;;    
+    margin-bottom: 150px;    
 }
 .top-banner{
     background-image: url(background-img.jpg);
@@ -46,7 +46,6 @@ background-repeat: no-repeat;
 background-position: right;
 background-size: 1000px 1000px;
 }
-}
 .experience-area{
     background-image: url(experience-bg.png);
     background-repeat: no-repeat;
@@ -74,7 +73,7 @@ background-size: 1000px 1000px;
     border-image: linear-gradient(red,cyan);
      border-image-slice: 1;
      border-left: 7px solid;
-     border-bottom: 7px solid;
+     border-bottom: 7px solid ;
 
 }
 .experience-area h1{
